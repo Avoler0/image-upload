@@ -1,0 +1,40 @@
+#menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 25vh;
+  height: 1000px;
+  border: 1px solid #cccccc;
+}
+.header{
+  text-align: left;
+}
+.header:hover{
+  cursor: pointer;
+  color: blue;
+}
+.my_wrap {
+
+  border-bottom: 1px solid #cccccc;
+}
+.info_area {
+  padding: 1.2rem;
+}
+.nickname {
+  font-weight: bold;
+}
+.isLoggin {
+  background-color: black
+}
+
+.nav li{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.2rem;
+  border-bottom: 1px solid #cccccc;
+}
+.nav li:hover{
+  cursor: pointer;
+  background-color: rgb(115, 115, 155);
+}
